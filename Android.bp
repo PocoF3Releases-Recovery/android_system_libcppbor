@@ -41,6 +41,7 @@ cc_defaults {
 
 cc_library {
     name: "libcppbor",
+    recovery_available: true,
     defaults: [
         "libcppbor_defaults",
     ],
